@@ -30,3 +30,22 @@ for animal in animals:
 
 for number in numbers:
     print('Look at this number', number)
+
+
+def static_greeting():
+    print('Hello Colleen')
+static_greeting()
+
+def dynamic_greeting(real_name):
+    print('Hello',real_name)
+
+
+
+real_name = 'Bob'
+dynamic_greeting(real_name)
+
+real_name = 'Katy'
+dynamic_greeting(real_name)
+
+real_name = 'Rick'
+dynamic_greeting(real_name)
