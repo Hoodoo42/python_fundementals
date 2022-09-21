@@ -1,4 +1,4 @@
-age =  24
+age =  0
 name = 'Charlie'
 bo = False
 
@@ -20,4 +20,13 @@ elif(age > 0 and bo == False):
 elif(age > 100 or bo == True):
     print('Large or True')
 else:
-    print('I dont know')
+    print("I don't know")
+
+animals = ['bear', 'lion', 'tiger', 'owl']
+numbers = [1,2,3,4]
+
+for animal in animals:
+    print(animal)
+
+for number in numbers:
+    print('Look at this number', number)
